@@ -21,8 +21,8 @@ public class PostPageTest {
 			} else {
 				for (int i = 1; i <= brPostova; i++) {
 					PostPage.deletePostButton(driver);
-					System.out.println("Uspešno ste obrisali "+brPostova+" postova");
-				}
+					}
+				System.out.println("Uspešno ste obrisali "+brPostova+" postova");
 			}
 
 		} catch (Exception e) {
